@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors       = "Peter Hosey"
   s.homepage      = "http://boredzo.org/iso8601dateformatter/",
   s.license       = { :type => "BSD", :file => "LICENSE.txt" }
-  s.platforms     = { :ios => "8.0" }
+  s.platform     = :ios, '8.0'
   s.source        = { :git => "https://github.com/hyperoslo/HYP8601.git", :tag => s.version.to_s }
   s.source_files  = "*.{m,h}"
   s.exclude_files = [
